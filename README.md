@@ -1,5 +1,5 @@
 # servlet-jsp-practice
-##dependencies
+## Maven dependencies
 ```xml
         <dependencies>
             <dependency>
