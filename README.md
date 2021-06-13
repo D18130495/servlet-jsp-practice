@@ -1,5 +1,6 @@
 # servlet-jsp-practice
-## Maven dependencies
+## Project structure and configuration
+### Maven dependencies
 ```xml
         <dependencies>
             <dependency>
