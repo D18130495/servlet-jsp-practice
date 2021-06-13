@@ -101,7 +101,7 @@ input {
 }
 
 /*/!*鐧诲綍椤电櫥褰曞拰閲嶇疆鎸夐挳*!/.providerView a鏄緵搴斿晢绠＄悊椤甸潰涓嬩俊鎭煡鐪嬩篃寰楄繑鍥炴寜閽殑鏍峰紡*/
-input[type='button'], input[type='reset'], .providerView a {
+input[type='submit'], input[type='reset'], .providerView a {
     width: 30%;
     cursor: pointer;
     background: #54a4d7;

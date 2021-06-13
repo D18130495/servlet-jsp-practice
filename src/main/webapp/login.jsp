@@ -5,7 +5,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>系统登录 --聚旺福超市订单管理系统</title>
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css?1"/>
     <script type="text/javascript">
     </script>
 </head>
