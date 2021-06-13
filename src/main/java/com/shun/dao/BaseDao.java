@@ -41,7 +41,7 @@ public class BaseDao {
         return connection;
     }
 
-    public static ResultSet exectue(Connection connection, String sql, Object[] params, ResultSet resultSet, PreparedStatement preparedStatement) throws Exception {
+    public static ResultSet exectue(Connection connection, PreparedStatement preparedStatement, ResultSet resultSet, String sql, Object[] params) throws Exception {
         preparedStatement =connection.prepareStatement(sql);
 
         for(int i = 0; i < params.length; i++) {
