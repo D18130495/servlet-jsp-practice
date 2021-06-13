@@ -56,3 +56,5 @@
 ```
 
 ## Login service
+
+## Logout service
