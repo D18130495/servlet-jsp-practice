@@ -52,7 +52,7 @@ public class BaseDao {
         return resultSet;
     }
 
-    public static int exectue(Connection connection, String sql, Object[] params, PreparedStatement preparedStatement) throws Exception {
+    public static int exectue(Connection connection, PreparedStatement preparedStatement, String sql, Object[] params) throws Exception {
         preparedStatement =connection.prepareStatement(sql);
 
         for(int i = 0; i < params.length; i++) {
